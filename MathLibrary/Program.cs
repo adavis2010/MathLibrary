@@ -8,6 +8,12 @@ namespace MathLibrary {
             var answer = Math.Add(1,2);
             Console.WriteLine($" 1 plus 2 equals {answer}");
 
+            answer = Math.Add(100,25);
+            Console.WriteLine($"100 plus 25 equals {answer}");
+
+            answer = Math.Modulo(13, 5);
+            Console.WriteLine($" 13 modulo 5 equals {answer}");
+
             answer = Math.Subtract(7,2);
             Console.WriteLine($" 7 minus 2 equals {answer}");
 
@@ -25,6 +31,19 @@ namespace MathLibrary {
 
             answer = Math.Modulo(1234, 13); // should return 12
             Console.WriteLine($" 1234 Modulo 13 equals {answer}");
+
+            answer = Math.Multiply(5, 5);// should return 25
+            Console.WriteLine($"5 Multiply 5 equals {answer}");
+
+
+
+
+
+
+
+
+
+
 
             var a =2;
             var b =4;
@@ -44,8 +63,8 @@ namespace MathLibrary {
             boolAnswer = Math.IsEven(a);
             Console.WriteLine($"{a} is {(boolAnswer ? "Even" : "Odd")}");
 
-            Console.WriteLine($"{a} incremented is { Math.Increment(a)}");
-            Console.WriteLine($"{a} decremented is { Math.Decrement(a)}");
+            Console.WriteLine($"{a} incremented is {Math.Increment(a)}");
+            Console.WriteLine($"{a} decremented is {Math.Decrement(a)}");
 
 
         }
